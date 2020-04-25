@@ -1,0 +1,217 @@
+#header{
+    background-color: #444;
+    height: 50px; 
+   
+    color: whitesmoke;
+    font-size: 20px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+
+#div1{
+    
+    text-align: right;
+    font-size: 20px;
+    color: whitesmoke;
+    margin: 20px;
+    width: 100px;
+    float: right;
+    padding-right: 100px;
+} 
+
+.fa{
+    margin: 20px;
+   } 
+   
+   
+#div2{
+       text-align: center; 
+       margin-top: 20px;
+       
+   } 
+   
+   
+   
+#p1{
+       font-size: 35px;
+       font-family: 'Girassol';
+       letter-spacing: 4px; 
+       color: #ff0033;
+   }   
+   
+
+#menubar{
+    width: 700px;
+    height: 30px;
+    background-color: whitesmoke;
+    color: dimgrey;
+    margin: 30px auto; 
+    
+   
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: serif;
+    font-size: 15px;
+} 
+
+#menu ul{
+    list-style: none;
+    position: relative;
+    background-color:whitesmoke;
+} 
+
+#menu ul li{
+    position: relative;
+    display: inline-block;
+    width: 95px;
+    height: 30px; 
+    text-align: center;
+    line-height: 30px; 
+    
+} 
+
+#menu ul li a:link{
+    display: block;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
+    background-color: limegreen;
+    color: white;
+    transition: background 0.5s linear 0s, color 0.5s linear 0s;
+    
+} 
+.carousel-item img{
+    height: 300px; 
+    width: 1000px;
+}
+
+.carousel-control-next-icon{
+    height: 20px;
+    width: 20px; 
+    align-items: center;
+}
+
+
+.carousel-control-prev-icon{
+    height: 20px;
+    width: 20px;
+}
+
+.achievements{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Artifika';
+    font-size: 30px;
+   
+    
+}
+
+.card img{
+    height: 170px;
+}
+ 
+.card-body{
+        margin-bottom: 0;
+        margin-top: 0;
+} 
+
+.card:hover{
+    background-size: 700px; 
+} 
+
+
+
+.testimonials{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Artifika';
+    font-size: 30px;
+   
+    
+} 
+
+.divtest img{ 
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.divtest img:hover{
+    height: 150px;
+    width: 150px;
+    
+} 
+
+.divtest1{
+    margin-left: 50px;
+} 
+
+.divtest1 h3{
+   font-family: 'capriola';
+} 
+
+.divtest1 p{
+    color: red;
+} 
+
+
+.row{
+    margin-top: 30px;
+}
+.aboutus{
+    margin-left: 100px;
+    margin-top: 60px;
+} 
+
+.about{
+    font-family: 'capriola';
+    font-size: 24px;
+}
+
+.about p{
+    margin-top: 20px;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contactus{
+    margin-left: 80px;
+    margin-top: 60px;
+} 
+
+.contact{
+    font-family: 'capriola';
+    font-size: 24px;
+} 
+
+address{
+    margin-top: 5px;
+} 
+
+.footer{
+    background-color: #444;
+    height: 140px;
+} 
+
+.f1{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.f2{
+    color: white;
+    text-align: center;
+    font-size: 20px; 
+    padding-top: 20px;
+} 
+
+.mediasymbol{
+    text-align: center;
+}

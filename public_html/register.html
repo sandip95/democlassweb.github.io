@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="register.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div id="div2">
+            Register Here
+        </div>
+        <div class="container">
+            <div class="col-sm-4 m-auto d-block">
+                
+                <div class="card-body">
+                    <div class="form-group">
+                        <form>
+                            <label>Username</label><br>
+                            <input type="text"  name="username" autocomplete="off" required="" value="" class="form-control"/><br>
+                            <label>Password</label><br>
+                            <input type="password"  name="password" required="" value="" autocomplete="off" class="form-control"/><br>
+                            <label>Your Photograph</label><br>
+                            <input type="file" name="uploadfile" value="" class="form-control"/><br/>
+                            <center><button class="btn btn-success"><a href="index.html">Register<a></button></center><br>
+                            <center><a href="index.html">
+                                   Login here</a></center>
+                        </form>
+                    </div>
+                 </div>
+            </div>
+        </div> 
+        
+        <script type="text/javascript">
+            $(document).ready(function(){
+               $('.btn').click(function(){
+                  alert('You have registered successfully'); 
+               }); 
+            });
+        </script>
+        
+    </body>
+</html>
